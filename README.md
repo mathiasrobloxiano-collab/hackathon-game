@@ -20,13 +20,15 @@ Juego educativo interactivo en 3D y laboratorio cuántico conectado en vivo con 
    - **Nivel 9 (1996 — Grover):** Búsqueda cuántica $O(\sqrt{N})$ por amplificación de amplitud vs búsqueda clásica.
    - **Nivel 10 (2026 — Quantum Dart Race):** Estimación de $\pi$ por Monte Carlo en 3D enfrentando `Math.random()` contra bits cuánticos reales medidos en `ibm_kingston`.
 
-2. **Conexión en Vivo con IBM Quantum Platform (`qiskit-ibm-runtime`) y Procesos Exclusivos de QPU:**
+2. **Conexión en Vivo con IBM Quantum Platform (`qiskit-ibm-runtime`) y 6 Procesos Exclusivos de QPU:**
    - Sincronización en tiempo real con la tabla **My recent workloads** (`service.jobs()`) de IBM Quantum Platform.
-   - **4 Procesos que Sí o Sí Requieren una Computadora Cuántica Real (156 Qubits):**
+   - **6 Procesos que Sí o Sí Requieren una Computadora Cuántica Real (156 Qubits):**
      1. **Utilidad Cuántica de Gran Escala (45 a 127 Qubits Entrelazados):** Supera la barrera de RAM clásica ($2^{60}$ amplitudes = 16,384 Petabytes de RAM) ejecutándose directamente en `ibm_kingston`.
      2. **Certificación Física de No-Localidad Bell-CHSH ($S > 2$):** Mide 4 pares de Bell simultáneamente en 8 qubits físicos.
      3. **QRNG Físico de 16 Qubits en Paralelo ($H^{\otimes 16}$):** Genera azar cuántico fundamental en la QPU para alimentar el Nivel 10.
      4. **Oráculo Cuántico de Grover de 3 Qubits en Hardware Real:** Ejecuta el difusor de Grover con compuerta `CCZ` en la QPU.
+     5. **Teletransportación Cuántica Física de Estado Continuo $|\psi\rangle$:** Transfiere un estado entre qubits físicos usando un canal de Bell real.
+     6. **Sondeo Físico de Decoherencia $T_1/T_2$ (Hahn Spin Echo):** Mide la relajación térmica real del criostato de IBM a 15 mK.
 
 ---
 
@@ -52,5 +54,4 @@ Juego educativo interactivo en 3D y laboratorio cuántico conectado en vivo con 
    *(En Windows también puedes hacer doble clic en `iniciar_juego.bat`).*
 
 ### Opción 2: Modo Web Autónomo (Sin dependencias externas)
-Abre directamente `index.html` en cualquier navegador moderno. Incluye todos los simuladores 3D y la telemetría certificada medida en `ibm_kingston` (Job `#cqubits-2026-kingston-9941a`).
-
+Abre directamente `index.html` en cualquier navegador moderno. Incluye todos los simuladores 3D y la telemetría certificada medida en `ibm_kingston` (Jobs `#dbeg3hfpc3tc739lkhng` y `#dbefh5vgdj9s73flmbb0`).
