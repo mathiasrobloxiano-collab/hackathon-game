@@ -1,0 +1,24 @@
+# Entorno virtual y cachés de Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Credenciales privadas de IBM Quantum Platform (NUNCA subir a GitHub)
+ibm_credentials.json
+.env
+from qiskit_ibm_runtime import QiskitRun.py
+
+# Archivos temporales de construcción y estado local
+progreso_jugador.json
+assemble.js
+build_full_game.js
+build_master_v4.js
+build_project.js
+build_v3.js
+generate_levels.js
+quiz_client_engine.js
+simuladores_3d_code.js
+v3_quiz_engine.js
+v3_quiz_qiskit_data.js
+verificar.py
