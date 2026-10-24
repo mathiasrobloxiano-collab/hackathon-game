@@ -14,9 +14,7 @@
    👉 **[https://mathiasrobloxiano-collab.github.io/hackathon-game/](https://mathiasrobloxiano-collab.github.io/hackathon-game/)** *(o abre directamente [`index.html`](index.html) en cualquier navegador)*.
 2. 📓 **Jupyter Notebook Oficial de Verificación Qiskit + Hardware Real:**  
    👉 **[`experimentos_qiskit_ibm_kingston.ipynb`](experimentos_qiskit_ibm_kingston.ipynb)** *(contiene el código Qiskit, circuitos transpilados y los Job IDs reales ejecutados en `ibm_kingston`)*.
-3. 🎬 **Guion Oficial de Exposición por Escenas (`02:48`):**  
-   👉 **[`GUION_VIDEO_PRESENTACION.md`](GUION_VIDEO_PRESENTACION.md)**
-4. ⚡ **Ejecutables Locales en 1 Clic (Motor Python + Qiskit + IBM Quantum Platform en Vivo):**
+3. ⚡ **Ejecutables Locales en 1 Clic (Motor Python + Qiskit + IBM Quantum Platform en Vivo):**
    - **Windows:** Doble clic en **[`iniciar_juego.bat`](iniciar_juego.bat)** *(o `python de_newton_a_los_qubits.py`)*.
    - **macOS / Linux:** Ejecutar **`./iniciar_juego.sh`** *(o `python3 de_newton_a_los_qubits.py`)*.
 
