@@ -53,3 +53,4 @@ Juego educativo interactivo en 3D y laboratorio cuántico conectado en vivo con 
 
 ### Opción 2: Modo Web Autónomo (Sin dependencias externas)
 Abre directamente `index.html` en cualquier navegador moderno. Incluye todos los simuladores 3D y la telemetría certificada medida en `ibm_kingston` (Job `#cqubits-2026-kingston-9941a`).
+
